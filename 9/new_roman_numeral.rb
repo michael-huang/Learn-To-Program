@@ -1,4 +1,4 @@
-def old_roman_numeral number
+def new_roman_numeral number
 	value = ''
 	thousands = number / 1000
 	hundreds = number % 1000 / 100
@@ -36,4 +36,4 @@ def old_roman_numeral number
 end
 
 puts 'Please type in any integer between 1 and 3000'
-puts old_roman_numeral gets.chomp.to_i
+puts new_roman_numeral gets.chomp.to_i
